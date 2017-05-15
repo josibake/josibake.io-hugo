@@ -1,0 +1,58 @@
+baseurl = "https://josibake.github.io"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
+title = "josibake.io"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  subtitle = "Most parts data, some parts science and all parts curious."
+  logo = "/profile.jpg"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+# [[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Josiah Baker"
+  email = "josiahfbaker@gmail.com"
+  github = "josibake"
+  twitter = "josibake"
+  linkedin = "josibake"
+  # stackoverflow = "users/XXXXXXX/username"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 2
+	
+[[menu.main]]
+    name = "Contributions"
+    url = "/page/contributions/"
+    weight = 3
+
+# [[menu.main]]
+#     name = "Resume"
+#     url = "/page/resume/"
+#     weight = 4
