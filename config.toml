@@ -52,7 +52,7 @@ pygmentCodeFences = true
     url = "/page/contributions/"
     weight = 3
 
-# [[menu.main]]
-#     name = "Resume"
-#     url = "/page/resume/"
-#     weight = 4
+[[menu.main]]
+    name = "Resume"
+    url = "/page/resume/"
+    weight = 4
