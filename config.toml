@@ -1,4 +1,4 @@
-baseurl = "https://josibake.github.io"
+baseurl = "http://josibake.io"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "josibake.io"
